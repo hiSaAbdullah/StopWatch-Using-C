@@ -1,10 +1,10 @@
 // Stop Watch in C programming
 
 #include<stdio.h>
-#define CYCLE 5
+#define CYCLE 60
 
 #include<unistd.h>
-#define CYCLE 5
+#define CYCLE 60
 
 #ifdef _WIN32
 #include<conio.h>
@@ -24,7 +24,7 @@ int main()
 
     while(1){
 
-        printf("%.2d:%.2d:%.2d\n",h,m,s);
+        printf(" Stop Watch: %.2d:%.2d:%.2d\n",h,m,s);
 
         if(h==hour && m==minute && s==second){
             break;
