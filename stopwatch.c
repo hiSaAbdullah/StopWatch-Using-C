@@ -23,12 +23,8 @@ int main()
         int h=0,m=0,s=0;
 
     while(1){
-        printf("\n ############### STOP WATCH #################\n\n\n");
 
-        printf("                 %.2d:%.2d:%.2d\n",h,m,s);
-
-        printf("\n #######################################\n\n\n");
-
+        printf("%.2d:%.2d:%.2d\n",h,m,s);
 
         if(h==hour && m==minute && s==second){
             break;
