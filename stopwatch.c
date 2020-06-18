@@ -25,9 +25,9 @@ int main()
     while(1){
         printf("\n ############### STOP WATCH #################\n\n\n");
 
-        printf("%.2d:%.2d:%.2d\n",h,m,s);
+        printf("                 %.2d:%.2d:%.2d\n",h,m,s);
 
-        printf("\n ############### STOP WATCH #################\n\n\n");
+        printf("\n #######################################\n\n\n");
 
 
         if(h==hour && m==minute && s==second){
