@@ -16,8 +16,8 @@
 #endif
 int main()
 {
-    int hour, minute, second;
-    printf("Enter Hour, Minute, Second: ");
+    int hour, minute, second; 
+    printf("Enter Your Wanted Stop Watch time: Hour, Minute, Second: ");
     scanf("%d%d%d",&hour,&minute,&second);
     clrscr();
         int h=0,m=0,s=0;
